@@ -2,10 +2,15 @@
 @use 'hero';
 @use 'shows';
 @use 'plans';
+@use 'available-devices';
 @use 'variables';
 
 body {
     background-color: variables.$corDeFundo;
+
+    li {
+        list-style: none;
+    }
 }
 
 @mixin title($fontSize: 40px) {
