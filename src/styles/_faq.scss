@@ -19,6 +19,11 @@
                 display: block;
                 cursor: pointer;
 
+                @media (max-width: 768px) {
+                    padding-right: 60px;
+                    font-size: 15px;
+                }
+
                 &::after {
                     position: absolute;
                     content: '+';
